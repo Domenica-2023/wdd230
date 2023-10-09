@@ -1,0 +1,47 @@
+div{
+    display: flex;
+    max-width: 900px;
+}
+
+nav{
+    font-family: "Rubik Vinyl";
+}
+
+li{
+    padding: 10px;
+    background-color: pink;
+    flex: 1;
+    list-style-type: none;
+}
+
+.navigation{
+    display: flex;
+}
+
+header{
+    background-color: #ffc8dd;
+    text-align: center;
+    font-family: "Rubik Vinyl";
+    font-size: larger;
+    color: navy;
+}
+
+.box{
+    flex: 1;
+    margin: 25px;
+    border: black;
+}
+
+footer{
+    background-color: #ffc8dd;
+    text-align: center;
+    font-family: "Rubik Vinyl";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerSection{
+    flex: 1;
+
+}

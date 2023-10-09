@@ -1,0 +1,47 @@
+h1{
+    font-family: "Rubik Vinyl";
+    color: #ffc8dd;
+}
+
+h2{
+    font-family: "Rubik Vinyl";
+    color: #003459;
+}
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    text-align: center;
+    align-items: center; 
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center; }
+
+.colors th {
+        background-color: #e9e2e2;}
+
+.colors td{
+    width: 50%;
+    height: 3em;}
+
+ul li{
+    text-align: left;
+    color: #003459;
+}
+
+img{
+    width: 33%;
+}
+
+.primary{
+    background-color: #ffc8dd;
+}
+
+.secondary{
+    background-color: #003459;
+}
