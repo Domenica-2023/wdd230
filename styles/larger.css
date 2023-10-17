@@ -1,10 +1,13 @@
 @media screen and (min-width: 600px) {
+
+    nav .navigation {
+        display: flex;
+    }
     nav button {
         display: none;
     }
 
     nav .menu-items {
-        display: flex;
-        
+        display: flex;   
     }
 }

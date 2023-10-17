@@ -36,6 +36,23 @@ body {
   padding: 4em;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav .navigation {
+  padding: 0;
+  display: none;
+}
+
+nav .navigation button {
+  width: 100px;
+}
+
+
+
 nav .menu-items {
   display: none;
 }
