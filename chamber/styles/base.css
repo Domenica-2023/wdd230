@@ -42,6 +42,9 @@ ul li {
     grid-template-rows: 400px 200px 200px;
     gap: 5px;
     font-family: "Rubik Vinyl";
+    display: grid;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .grid-container > div {
@@ -99,11 +102,9 @@ footer{
     text-align: center;
     font-family: "Rubik Vinyl";
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.footerSection{
+.footer > div{
     flex: 1;
-
+    justify-content: space-between;
 }
