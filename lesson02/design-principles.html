@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-  <link rel="stylesheet" href="styles/design.css">
+  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta
@@ -10,6 +10,10 @@
   Domenica Baerwald
   Course Assignment Portal  " />
   <title>Domenica Baerwald - WDD230 - Design Principles</title>
+
+<!--  Link to Style Sheet -->
+  <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 <body>
 
@@ -20,7 +24,7 @@
 </header>
 
 <main class="main-grid">
-    <section class="card">
+    <div>
         <h3>Repitition</h3>
         <nav>
           <img  class="card-img" src="images/OBERMAYER.png" alt="Pic of example website">
@@ -29,38 +33,44 @@
             This website shows repitition with its color scheme and its font. It also shows repitition with its layout. You can see repetition in the layout with the sidebar to the left and in the "The Latest" section with the six uniform links.
           </p>
         </nav>
-    </section>
+    </div>
 
-    <section class="card">
+    <div>
         <h3>White Space and Clean Design</h3>
         <nav>
           <img class="card-img" src="images/Whitespaceandcleandesign.png" alt="Pic of example website">
           <a  class="card-a" href="https://scopecopenhagen.com/"> scopecopenhagen.com </a>
           <p>This website has a white background and uses clean sleek fonts.</p>
         </nav>
-    </section>
+    </div>
 
-    <section class="card">
+    <div>
         <h3>Contrast</h3>
         <nav>
           <img class="card-img" src="images/3sidedcube.png" alt="Pic of example website">
           <a  class="card-a" href="https://3sidedcube.com/"> 3sidedcube </a>
           <p>This website uses contrast with really interesting colors.</p>
         </nav>
-    </section>
+    </div>
 </main>
 <footer>
-
-  <p>
-    © 2023
-    Domenica Baerwald
-    California/USA
-  </p>
-
-  <p id="lastModified">
-
-  </p>
+  <p>&copy;</p>
+  <p id="year"></p>
+  <p> ║ Domenica Baerwald ║ California,USA ║ </p>
+  <p>Last modification:</p> 
+  <p id="lastmodified"></p>
 </footer>
+
+<script>
+  /* same as getdates.js but didn't want to add js file */
+  /*last modified code*/ 
+  let text = document.lastModified;
+  document.getElementById("lastmodified").innerHTML = text;
+
+  /*year code*/ 
+  const d = new Date();
+  document.getElementById("year").innerHTML = d.getFullYear();
+</script>
 
 </body>
 </html>
