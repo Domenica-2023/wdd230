@@ -55,7 +55,11 @@
     <main class="grid-container">
     <!-- nth child 1-->
         <div class = "hero">
-            <img src="images/hero-medium.webp" alt="Car driving past a vineyard">
+            <picture>
+                <source srcset = "">
+                <source srcset="">
+                <img src="" alt="">
+            </picture>
             <div class="herolabel">
                 <p>Join!</p>
             </div>
@@ -98,12 +102,17 @@
     
 
     <footer>
-        <div>
-            <img src="images/logochamber2.JPG" alt="Chamber of Commerce Logo">
-            &copy; 2023 │ Domenica Baerwald │ California,USA <span id = "currentdate" ></span>
-            <p id="lastModified"></p>
-        </div>
         
+        <div>
+        </div>
+
+        <div class="bottomLine">
+            <p>&copy;</p>
+        <p id="year"></p>
+        <p> Healdsburg Chamber ︱ Domenica Baerwald ︱ WDD230 Project ︱</p> 
+        <p id="lastmodified"></p>
+        </div>
+
         <div>
             <h3>Contact info</h3>
             <h4>📍 Healdsburg Chamber of Commerce</h4>
@@ -114,6 +123,6 @@
         </div>
         
     </footer>
-
+    <script src = "scripts/getdates.js" ></script>
 </body>
 </html>

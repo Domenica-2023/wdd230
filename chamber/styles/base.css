@@ -102,6 +102,12 @@ footer{
     text-align: center;
     font-family: "Rubik Vinyl";
     display: flex;
+    flex-direction: column;
+}
+
+.bottomLine p{
+    display: inline-block;
+    font-size: x-small;
 }
 
 .footer > div{

@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    font-family: "Raleway Dots";
+}
+
+main{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 100%;
+    background-color: black;
+    animation: fade 10s;
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    100% { opacity: 1;}
+
+}
+
+
+footer p {display: inline-block;}
+
+footer {text-align: center;
+    font-family:  "Raleway Dots";
+    font-weight: 800;
+    padding: 50px;
+    }
