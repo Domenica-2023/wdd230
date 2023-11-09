@@ -87,3 +87,65 @@ footer {
 
 .year p{
     display:inline-block; }
+
+
+    /*Styling for Html*/
+  
+/*makes boxes vertical*/ 
+label { display: block;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";}
+
+/* stars */
+input[type="radio"] { display: none;
+    position: relative;
+    caret-color: rgba(0, 0, 0, 0);}
+
+.stars { display: flex;
+    flex-direction: row-reverse;
+    justify-content: left; }
+
+.stars > label { color: gold;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/}
+
+    .stars > label:hover { color: #000000;}
+
+    .stars > label::before { content: "\2606";}
+    
+    .stars input:checked ~ label::before { content: "\2605"; }
+
+/*page rating*/ 
+input[type=text], input[type=range], input[type=radio] { margin: 1rem;
+    padding: 0.5em;}
+
+#r { width: 180px;
+    margin-bottom: 0; }
+
+#rangevalue { font-size: 2rem;
+    color: rgb(51, 51, 204); }
+
+#rangevalues { display: flex;
+    margin: 0 0 0 25px;
+    width: 200px; }
+
+#rangevalues option { flex: 1 1 auto; }
+
+h1 { font-family: "Montserrat Alternates";
+  padding-left: 20px;}
+
+input {
+  margin: 40px;
+  padding: 10px;
+  font-family: "Montserrat Alternates"; }
+
+fieldset {
+  margin: 10px; 
+  padding: 10px;  }
+
+legend {font-family: "Montserrat Alternates";}

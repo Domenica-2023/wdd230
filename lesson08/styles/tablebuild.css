@@ -1,0 +1,24 @@
+
+table, th, td {
+    border: 1px solid black; }
+
+body {
+    font-family: "EB Garamond", Arial, serif; }
+
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra); }
+
+td {
+    text-align: center; }
+
+th {
+    background-color: rgb(90, 86, 86);
+    font-size: larger;
+color: white; }
+
+.title {
+    background-color: black;
+    color: white;
+    font-size: medium;
+}

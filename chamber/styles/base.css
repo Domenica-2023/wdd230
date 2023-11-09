@@ -126,6 +126,8 @@ footer{
 
 
 /* styling for DISCOVER page CSS */ 
+/* hover effect */
+.hover:hover {box-shadow: 0 0 50px #333;}
 
 .discover-grid{
     grid-template-columns: 1fr 2fr;
