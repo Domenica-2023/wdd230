@@ -45,7 +45,7 @@
             <li> <a href="#">Home </a></li>
             <li><a href="https://domenica-2023.github.io/wdd230/chamber/discover.html"> About </a></li>
             <li><a href="" > News </a></li>
-            <li><a href=""> Join </a></li>
+            <li><a href="https://domenica-2023.github.io/wdd230/chamber/join.html"> Join </a></li>
             <li><a href=""> Podcast </a></li>
             </ul>
         </nav>
@@ -61,6 +61,7 @@
                 <img src="" alt="">
             </picture>
             <div class="herolabel">
+                <a href="https://domenica-2023.github.io/wdd230/chamber/join.html"></a>
                 <p>Join!</p>
             </div>
         </div>
@@ -74,8 +75,10 @@
     <!-- nth child 3 -->
         <div class="weather">
             <h2> ☀ Weather</h2>
+            <p><span id="temperature">25</span> °F Sunny</p>
             <p>Humidity: </p>
-            <p>🌬 Windchill</p>
+            <p>Wind Speed: <span id="windspeed">15</span> mph</p>
+            <p>🌬 Wind chill: <span id="windChillOutput"></span></p>
 
         </div>
     <!-- nth child 4 -->
@@ -125,5 +128,6 @@
     </footer>
     <script src = "scripts/getdates.js" ></script>
     <script src = "scripts/darkmode.js" ></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

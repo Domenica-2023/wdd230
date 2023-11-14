@@ -42,7 +42,7 @@
         
         <nav>
             <ul class ="navigation">
-            <li> <a href="https://domenica-2023.github.io/wdd230/chamber/index.html">Home </a></li>
+            <li> <a href="https://domenica-2023.github.io/wdd230/chamber/index.html"> Home </a></li>
             <li><a href="https://domenica-2023.github.io/wdd230/chamber/discover.html"> About </a></li>
             <li><a href="" > News </a></li>
             <li><a href=""> Join </a></li>
@@ -52,8 +52,31 @@
 
     </header>
 
-    <main class="grid-container">
-   
+    <main>
+
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Personal info</legend>
+                <label> First name* <input type="text" id = "fname" name = "fname" required></label>
+                <label> Last name* <input type="text" id = "lname" name = "lname" required></label>
+                <label> Title or Position <input type="text" id = "title" name = "position" pattern=""></label>
+                <label> Phone <input type="tel" id = "phone" name = "phone" placeholder="(333) 333-3336"></label>
+                <label> Email <input type="email" id = "email" name = "email" placeholder="someone@gmail.com"></label>
+                <label> Business Organization* <input type="text" id = "org" name = "phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership info</legend>
+                <div>Membership Level </div>
+                <label> <input type="radio" name="membershipLevel" value="Non-profit"> Non-profit (no fee) </label>
+                <label> <input type="radio" name="membershipLevel" value="Bronze"> Bronze </label>
+                <label> <input type="radio" name="membershipLevel" value="Silver"> Silver </label>
+                <label> <input type="radio" name="membershipLevel" value="Gold"> Gold </label>
+            </fieldset>
+            <input type="submit" value="Enter My Info">
+        </form>
+
     </main>
 
     

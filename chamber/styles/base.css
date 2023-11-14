@@ -182,7 +182,7 @@ footer{
     border: 2px solid rgb(30, 29, 29);}
 
 /*calendar styling*/ 
-    {box-sizing: border-box;}
+    *{box-sizing: border-box;}
     ul {list-style-type: none;}
     body {font-family: Verdana, sans-serif;}
     
@@ -250,3 +250,8 @@ footer{
     
     @media screen and (max-width: 290px) {
         .weekdays li, .days li {width: 12.2%;} }
+
+    /* Styling for Join.Html */
+    label { display: block;
+        font-weight: 700;
+        font-family: "Montserrat Alternates";}
