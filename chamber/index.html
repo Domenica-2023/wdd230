@@ -56,9 +56,9 @@
     <!-- nth child 1-->
         <div class = "hero">
             <picture>
-                <source srcset = "">
-                <source srcset="">
-                <img src="" alt="">
+                <source srcset = "images/Wk6smallheroimage.webp" media="(max-width: 500px)">
+                <source srcset="images/Wk6mediumheroimage.webp" media="(max-width: 1000px)">
+                <img src="images/Wk6heroimage.webp" alt="" height="400" width="1200">
             </picture>
             <div class="herolabel">
                 <a href="https://domenica-2023.github.io/wdd230/chamber/join.html">
@@ -76,8 +76,8 @@
     <!-- nth child 3 -->
         <div class="weather">
             <h2> ☀ Weather</h2>
-            <p><span id="temperature">25</span> °F Sunny</p>
-            <p>Humidity: </p>
+            <p><span id="temperature">25</span> °F Sunny (Madeup temperature)</p>
+            <p><span id="current-temp"></span></p>
             <p>Wind Speed: <span id="windspeed">15</span> mph</p>
             <p>🌬 Wind chill: <span id="windChillOutput"></span></p>
 
@@ -130,5 +130,6 @@
     <script src = "scripts/getdates.js" ></script>
     <script src = "scripts/darkmode.js" ></script>
     <script src="scripts/windchill.js"></script>
+    <script src = "scripts/weather.js" ></script>
 </body>
 </html>

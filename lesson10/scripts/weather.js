@@ -7,7 +7,7 @@ const captionDesc = document.querySelector('figcaption');
 
 //49.750154713358576, 6.637088766192547 lat and long of Tier, Germany copied from Google maps
 //put URL here 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=youIDWhenYouReceiveTheEmail';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=78187222caea4489b966ba455a6c5b4e';
 
 
 async function apiFetch () {
