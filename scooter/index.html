@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scooter website</title>
+
+    <!-- Google font links -->
+
+
+    <!-- style sheets -->
+    <link rel="stylesheet" href="styles/base.css">
+
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="Healdsburg Chamber of Commerce">
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="something.jpg">
+    <meta property="og:url" content="put url here">
+    <!-- ???? what is this? Ask tutor or group or someone -->
+    <meta name="twitter:card" content="summary_large_image">
+    <!--  Non-Essential, But Recommended; get this explained to me or watch YouTube video-->
+    <meta property="og:description" content="Offering tour packages for individuals or groups.">
+    <meta property="og:site_name" content="European Travel, Inc.">
+    <meta name="twitter:image:alt" content="Alt text for image">
+    <!--  Non-Essential, But Required for Analytics -->
+    <meta property="fb:app_id" content="your_app_id" />
+    <meta name="twitter:site" content="@website-username">
+
+</head>
+<body>
+    <header>
+        <div>
+            <h3>Scoots!</h3>
+            <h5>Electric Scooter Rentals</h5>
+        </div>
+
+        <div class= "menu">
+            <ul class="navigation">
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/index.html">Home </a></li>
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/rentals.html"> Rentals </a></li>
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/reservation.html"> Reservation </a></li>
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/contact.html"> Contact </a></li>
+            </ul>
+        </div>
+        <div></div>
+    </header>
+
+    <main class = grid-container>
+        <div class="callToAction">
+            <a href="https://domenica-2023.github.io/wdd230/scooter/reservation.html"></a>
+            <p>Reservations here</p>
+        </div>
+
+        <div class = weather>
+            <h2> 🌤️ Weather </h2>
+            <p><span id="temperature"></span> </p> 
+            <figure>
+                <figcaption></figcaption>
+             </figure>
+            <p>💨 Wind Speed: <span id="windspeed">5</span> mph</p>
+            <p>Wind Chill: <span id="windChillOutput"></span></p>
+        </div>
+
+        <div>
+            <h3>Jeep Rentals</h3>
+            <p>Jeep Wrangler - 4 door manuel with A/C - 5 person
+                Jeep Wrangler - 2 door - open air - manuel - 4 person</p>
+        </div>
+
+        <div>
+            <h3>Honda Motor Rentals</h3>
+            <p>Honda Metropolitan (49cc) - 1 person
+                Honda Dio (110cc) - 2 person
+                Honda PCX150 (149cc) - 2 person </p>
+        </div>
+
+        <div>
+            <h3>Side By Side ATVs</h3>
+            <p>Honda Pioneer 1000 - 4 person</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>South location</p>
+            <p>Terminal Puerta Maya</p>
+            <p> +1 (817) 222-2223</p>
+            <p> info@scootsscooters.org</p>
+        </div>
+
+        <div>
+            <p>Playa del Carmen Ferry Dock location</p>
+            <p>Centro de Cozumel </p>
+            <p>+1 (817) 222-2546</p>
+        </div>
+
+        <div class= "bottomLine">
+            <p>&copy;</p>
+            <p id="year"></p>
+            <p> Scoots! ︱ Domenica Baerwald ︱ WDD230 Project ︱</p> 
+            <p id="lastmodified"></p></div>
+
+    </footer>
+    
+</body>
+
+<script> /*last modified code*/
+let text = document.lastModified;
+document.getElementById("lastModified").innerHTML = d.getFullYear();
+
+
+/*year code*/ 
+const d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
+
+</script>
+
+<script src="scripts/weather.js"></script>
+
+</html>
