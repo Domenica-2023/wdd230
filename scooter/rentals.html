@@ -3,19 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chamber Home Page</title>
-    <meta name="author" content="Domenica Baerwald">
-    <meta name="description" content="Free Web tutorials">
-    <link rel="icon" href="favicon-2.ico" type="image/x-icon" />
+    <title>Rentals</title>
 
-    <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/medium.css">
+    <!-- Google font links -->
+
+
+    <!-- style sheets -->
     <link rel="stylesheet" href="styles/base.css">
 
-    <!-- these are my Google font links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
 
     <!--  Essential META Tags -->
     <meta property="og:title" content="Healdsburg Chamber of Commerce">
@@ -24,106 +19,72 @@
     <meta property="og:url" content="put url here">
     <!-- ???? what is this? Ask tutor or group or someone -->
     <meta name="twitter:card" content="summary_large_image">
-
     <!--  Non-Essential, But Recommended; get this explained to me or watch YouTube video-->
     <meta property="og:description" content="Offering tour packages for individuals or groups.">
     <meta property="og:site_name" content="European Travel, Inc.">
     <meta name="twitter:image:alt" content="Alt text for image">
-
     <!--  Non-Essential, But Required for Analytics -->
     <meta property="fb:app_id" content="your_app_id" />
     <meta name="twitter:site" content="@website-username">
+
 </head>
-
 <body>
-    <div id="mode"> 🕶️</div>
     <header>
-        <h1>Healdsburg Chamber of Commerce</h1>
-        
-        <nav>
-            <ul class ="navigation">
-            <li> <a href="https://domenica-2023.github.io/wdd230/chamber/index.html">Home </a></li>
-            <li><a href="https://domenica-2023.github.io/wdd230/chamber/discover.html"> Discover </a></li>
-            <li><a href="" > News </a></li>
-            <li><a href="https://domenica-2023.github.io/wdd230/chamber/join.html"> Join </a></li>
-            <li><a href=""> Podcast </a></li>
-            </ul>
-        </nav>
+        <div>
+            <h3>Scoots!</h3>
+            <h5>Electric Scooter Rentals</h5>
+        </div>
 
+        <div class= "menu">
+            <ul class="navigation">
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/index.html">Home </a></li>
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/rentals.html"> Rentals </a></li>
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/reservations.html"> Reservations </a></li>
+                <li> <a href="https://domenica-2023.github.io/wdd230/scooter/contact.html"> Contact </a></li>
+            </ul>
+        </div>
+        <div></div>
     </header>
 
-    <main class="grid-container">
-    <!-- nth child 1-->
-        <div class = "hero">
-            <picture>
-                <source srcset = "images/Wk6smallheroimage.webp" media="(max-width: 500px)">
-                <source srcset="images/Wk6mediumheroimage.webp" media="(max-width: 1000px)">
-                <img src="images/Wk6heroimage.webp" alt="" height="400" width="1200">
-            </picture>
-            <div class="herolabel">
-                <a href="https://domenica-2023.github.io/wdd230/chamber/join.html">
-                    <p>Join!</p>
-                </a>
-            </div>
-        </div>
-
-    <!-- nth child 2 -->
-        <div class="events">
-            <h2>Events </h2>
-
-        </div>
-
-    <!-- nth child 3 -->
-        <div class="weather">
-            <h2> ☀ Weather</h2>
-            <p><span id="temperature">25</span> °F Sunny (Madeup temperature)</p>
-            <p><span id="current-temp"></span></p>
-            <p>Wind Speed: <span id="windspeed">15</span> mph</p>
-            <p>🌬 Wind chill: <span id="windChillOutput"></span></p>
-
-        </div>
-    <!-- nth child 4 -->
-        <div class="member-spotlight">
-            <h2>🎮 Gamers that can help    </h2>
-            <p>⌨🖱 For all your gamer needs 🖥📠 </p>
-            <p> +1 797 979 7997</p>
-        </div>
-    <!-- nth child 5 -->
-        <div class="member-spotlight">
-            <h2>👣 Chiropractor</h2>
-            <p>For all your pains on your body</p>
-            <p>+1 876 947 9067</p>
-        </div>
-    <!-- nth child 6 -->
-        <div class="member-spotlight">
-            <h2> 💍 Jeweler </h2>
-            <p>💷 First ring is free 💰</p>
-            <p> +4 209 042 9024</p>
-        </div>
-
+    <main class = "rentals-grid">
+        
     </main>
 
-    
-
     <footer>
-        
         <div>
+            <p>South location</p>
+            <p>Terminal Puerta Maya</p>
+            <p> +1 (817) 222-2223</p>
+            <p> info@scootsscooters.org</p>
         </div>
 
-        <div class="bottomLine">
+        <div>
+            <p>Playa del Carmen Ferry Dock location</p>
+            <p>Centro de Cozumel </p>
+            <p>+1 (817) 222-2546</p>
+        </div>
+
+        <div class= "bottomLine">
             <p>&copy;</p>
-        <p id="year"></p>
-        <p> Healdsburg Chamber ︱ Domenica Baerwald ︱ WDD230 Project ︱</p> 
-        <p id="lastmodified"></p>
-        </div>
+            <p id="year"></p>
+            <p> Scoots! ︱ Domenica Baerwald ︱ WDD230 Project ︱</p> 
+            <p id="lastmodified"></p></div>
 
-        <div>
-            <h3>Contact info</h3>
-            <h4>📍 Healdsburg Chamber of Commerce</h4>
-            <p>155 Raven Lane</p>
-            <p>Healsburg, California 75894</p>
-            <p> 📞 +1 (817) 222-2223</p>
-            <p>📧 info@healdsburgcommerce.org</p>
-        </div>
-        
     </footer>
+    
+</body>
+
+<script> /*last modified code*/
+let text = document.lastModified;
+document.getElementById("lastModified").innerHTML = d.getFullYear();
+
+
+/*year code*/ 
+const d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
+
+</script>
+
+<script src="scripts/weather.js"></script>
+
+</html>
