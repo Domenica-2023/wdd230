@@ -6,7 +6,9 @@
     <title>Scooter Reservations</title>
 
     <!-- Google font links -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 
     <!-- style sheets -->
     <link rel="stylesheet" href="styles/base.css">
@@ -69,12 +71,26 @@
         </div>
         
         <fieldset>
-        <legend>Contact Us!</legend>
+        <legend>Personal Info</legend>
                 <label> First name* <input type="text" id = "fname" name="fname" required></label>
                 <label> Last name* <input type="text" id = "lname" name="lname" required></label>
+                <label> Phone <input type="text" id="phone" name="phone" placeholder="(333) 353-3556"></label>
                 <label> Email <input type="text" id = "email" name="email" placeholder="someone@gmail.com"></label>
+                <label> Home state or country* <input type="text" id = "state" name="state" required></label>
+                <label> Cruise line (if applicable) <input type="text" id = "cruise" name="Cruise" ></label>
+                <label> Special accomodations and comments <input type="text" id = "comments" name="comments" ></label>
+            </fieldset>
 
+        <fieldset>
+        <legend>Rental Type </legend>
+        <label> <input type="radio" name="rentalType" value="Jeep Wrangler - 4 door"> Jeep Wrangler - 4 door manuel with A/C - 5 person </label>
+            <label> <input type="radio" name="rentalType" value="Jeep Wrangler - 2 door"> Jeep Wrangler - 2 door - open air - manuel - 4 person</label>
+            <label> <input type="radio" name="rentalType" value="Honda 1 person"> Scooter Honda Metropolitan (49cc) - 1 person</label>
+            <label> <input type="radio" name="rentalType" value="Honda 1 person"> Scooter Honda Dio (110cc) - 2 person</label>
+            <label> <input type="radio" name="rentalType" value="Honda 1 person"> Scooter Honda PCX150 (149cc) - 2 person</label>
+            <label> <input type="radio" name="rentalType" value="Honda 1 person"> ATVs Honda Pioneer 1000 - 4 person</label>
         </fieldset>
+
     </main>
 
     <footer>
