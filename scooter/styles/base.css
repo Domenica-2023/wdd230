@@ -21,7 +21,7 @@
 header {
     background-color: #18e5f0;
     color: #000000;
-    font-family: "'Work Sans', sans-serif;";
+    font-family: "Luckiest Guy";
     text-align: center;
     font-size: xx-large;
     padding: 10px;
@@ -123,7 +123,7 @@ footer {
     background-color: #18e5f0;
     text-align: center; 
     color: #000000;
-    font-family: "Luckiest Guy";
+    font-family: "'Work Sans', sans-serif;";
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 25px;
@@ -161,7 +161,6 @@ footer > div:nth-child(3) {
 
 /*makes boxes vertical*/ 
 label { display: block;
-    font-weight: 700;
-    font-family: "Luckiest Guy";}
+    font-weight: 700;}
 
 legend {font-family: "Luckiest Guy";}
