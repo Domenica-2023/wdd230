@@ -168,3 +168,13 @@ legend {font-family: "Luckiest Guy";}
 h3 {font-family: "Luckiest Guy";}
 
 h1 {font-family: "Luckiest Guy";}
+
+/*CSS FOR RENTALS.HTML*/
+
+table, th, td {
+    border:1px solid black; }
+.title {
+    background-color: black;
+    color: white;
+    font-size: medium;
+}
